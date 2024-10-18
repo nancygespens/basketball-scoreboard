@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/verdana-bold" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="top">
+            <div id="home">
+                <h3>HOME</h3>
+                <div id="score-home" class="count home">0</div>
+                <div class="buttons home">
+                    <button class="btn" onclick="home1()">+1</button>
+                    <button class="btn" onclick="home2()">+2</button>
+                    <button class="btn" onclick="home3()">+3</button>
+                </div>
+            </div>
+
+            <div id="time">
+                <h4>TIME</h4>
+                <div id="timer-el" class="count time">12:00</div>
+                
+                <div id="per">
+                    <h4>PERIOD</h4>
+                    <div id="per-el" class="count period">1</div>
+                </div>
+                
+            </div>
+
+            <div id="guest">
+                <h3>GUEST</h3>
+                <div id="score-guest" class="count guest">0</div>
+                <div class="buttons home">
+                    <button class="btn" onclick="guest1()">+1</button>
+                    <button class="btn" onclick="guest2()">+2</button>
+                    <button class="btn" onclick="guest3()">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="bottom">
+            <div id="pause">
+                <button id="pause-resume" class="btn-bottom period" onclick="toggleTimers()">PAUSE</button>
+            </div>
+            <div id="newGame">
+                <button id="reset-el" class="btn-bottom start" onclick="reset()">NEW GAME</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
