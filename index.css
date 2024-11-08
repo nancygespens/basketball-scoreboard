@@ -1,7 +1,7 @@
 body {
     margin: auto;
     background: url(/max-winkler-UFIZodJgScQ-unsplash\ copy.png);
-    background-size:220ch;
+    background-size:245ch;
     background-position: center;
 }
 
@@ -77,8 +77,8 @@ h4, .count.time, .count.period {
 
 .btn:hover {
     border: 2px solid white;
-    color:white;
-    transition: 0.7s;
+    color: white;
+    transition: all 0.7s ease-in-out;
 }
 
 
@@ -92,7 +92,7 @@ h4, .count.time, .count.period {
 
 .btn-bottom {
     color: #1B244A;
-    background: white;
+    background: #9AABD8;
     border: none;
     border-radius: 10px 10px 0 0;
     font-size: 18px;
@@ -104,6 +104,6 @@ h4, .count.time, .count.period {
 }
 
 .btn-bottom:hover {
-    background-color: #F94F6D;
-    transition: 0.7s;
+    background-color: white;
+    transition: background-color 0.7s ease-in-out;
 }
