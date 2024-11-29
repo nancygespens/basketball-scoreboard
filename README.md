@@ -1,6 +1,9 @@
 # Basketball Scoreboard
 
-<img width="1682" alt="github" src="https://github.com/user-attachments/assets/71a66f69-7570-4007-b2e6-2671bda9e7ec">
+[![Demo](https://github.com/user-attachments/assets/71a66f69-7570-4007-b2e6-2671bda9e7ec)](https://aesthetic-gaufre-b7ccf9.netlify.app/)
+
+> Click the image to view the demo. The link will open in the current tab (press `Ctrl + Click` or `Cmd + Click` to open in a new tab).
+
 
 ## Description
 
